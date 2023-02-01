@@ -44,12 +44,12 @@ Checking for wrong type as last name:
 Checking for normal use:
 	 >>> say_my_name("Hello", "World")
 	 My name is Hello World
-	 >>> say_my_name("You know nothing", "John Snow")
-	 My name is You know nothing John Snow
+	 >>> say_my_name("Let me tell you", "girl")
+	 My name is Let me tell you girl
 
 Checking for 1 arg:
 	 >>> say_my_name("Hello")
-	 My name is Hello
+	 My name is Hello 
 
 Checking for more than 2 args:
 	 >>> say_my_name("Hello", "World", "hi")
