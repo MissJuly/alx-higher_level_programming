@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-"""
-This module has a class MyList that inherits from
-list. Has a public instance method print_sorted that
-prints the list in ascending order
+"""class MyList that inherits from list
 """
 
 
 class MyList(list):
-    """
-    class that inherits from list
-    """
+    """inherits from list"""
     def print_sorted(self):
+        """prints the list, but sorted
+        (ascending sort)
+        """
         print(sorted(self))
