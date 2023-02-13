@@ -62,7 +62,7 @@ class Base:
             if json_string is None or empty - return an empty list
             Otherwise - return the list represented by json_string
         """
-        if json_string is None or json_string == "[]":
+        if json_string is None or json_string == []:
             return []
         return json.loads(json_string)
 
