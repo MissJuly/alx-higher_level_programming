@@ -1,4 +1,4 @@
---Create database hbtn_0d_usa and table cities
+-- Create database hbtn_0d_usa and table cities
 CREATE DATABASE IF NOT EXISTS `hbtn_0d_usa`;
 CREATE TABLE IF NOT EXISTS `hbtn_0d_usa`.`cities` (
     PRIMARY KEY(`id`),
