@@ -8,6 +8,7 @@ import unittest
 from models.base import Base
 from models.rectangle import Rectangle
 
+
 class RectangleInstantiationTestCase(unittest.TestCase):
     """Unittests for testing instantiation of the rectangle class"""
 

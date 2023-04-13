@@ -18,6 +18,7 @@ import unittest
 from models.base import Base
 from models.square import Square
 
+
 class TestSquareInstantiation(unittest.TestCase):
     """Unittests for testing instantiation of the Square class."""
 
